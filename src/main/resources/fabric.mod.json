@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "LadderWarp",
-  "description": "Instantly warp up and down ladders with just a right-click.",
+  "description": "Instantly warp up and down climbable blocks with just a right-click.",
   "authors": [
     "Jad Chehimi"
   ],
@@ -13,12 +13,10 @@
     "sources": "https://github.com/jadc/LadderWarp"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/ladderwarp/icon.png",
 
   "environment": "*",
-  "entrypoints": {
-  },
   "mixins": [
     "ladderwarp.mixins.json"
   ],
