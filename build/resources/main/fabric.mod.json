@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "ladderwarp",
-  "version": "${version}",
+  "version": "1.16.1-1.0.0",
 
   "name": "LadderWarp",
   "description": "Instantly warp up and down ladders with just a right-click.",

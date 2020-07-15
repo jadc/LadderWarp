@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/building_blocks/mossy_cobblestone": {
+    "criteria": {
+      "has_vine": "2020-07-15 00:15:15 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2020-07-15 00:15:15 -0600"
+    },
+    "done": false
+  },
+  "DataVersion": 2567
+}
