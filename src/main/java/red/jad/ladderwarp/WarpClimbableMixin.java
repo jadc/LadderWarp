@@ -33,7 +33,6 @@ public class WarpClimbableMixin {
                         if(pos.getX() != Math.floor(player.getX())) return ActionResult.PASS;
                         if(pos.getZ() != Math.floor(player.getZ())) return ActionResult.PASS;
                     }
-
                     if(!player.getBlockPos().equals(new BlockPos(pos.getX(), newY, pos.getZ()))){
                         player.teleport(pos.getX() + 0.5, newY, pos.getZ() + 0.5);
                         world.playSound(null, player.getBlockPos(), world.getBlockState(pos).getBlock().getSoundGroup(world.getBlockState(pos)).getStepSound(), SoundCategory.BLOCKS, 0.25f, 1.0f);
@@ -44,6 +43,8 @@ public class WarpClimbableMixin {
                 }else{
                     return ActionResult.PASS;
                 }
+            }else{
+                return ActionResult.PASS;
             }
         }
         return ActionResult.PASS;
