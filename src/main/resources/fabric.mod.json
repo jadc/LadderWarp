@@ -5,27 +5,20 @@
 
   "name": "LadderWarp",
   "description": "Instantly warp up and down climbable blocks with just a right-click.",
-  "authors": [
-    "Jad Chehimi"
-  ],
+  "authors": [ "Jad Chehimi" ],
   "contact": {
     "homepage": "https://curseforge.com/minecraft/mc-mods/LadderWarp",
-    "sources": "https://github.com/jadc/LadderWarp"
+    "sources": "https://github.com/jadc/LadderWarp",
+    "issues": "https://github.com/jadc/LadderWarp/issues"
   },
 
   "license": "MIT",
   "icon": "assets/ladderwarp/icon.png",
 
   "environment": "*",
-  "mixins": [
-    "ladderwarp.mixins.json"
-  ],
+  "mixins": ["ladderwarp.mixins.json"],
 
   "depends": {
-    "fabricloader": ">=0.7.4",
-    "minecraft": "1.16.x"
-  },
-  "suggests": {
-    "flamingo": "*"
+    "fabricloader": ">=0.7.4"
   }
 }

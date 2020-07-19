@@ -4,7 +4,5 @@
   "package": "red.jad.ladderwarp",
   "compatibilityLevel": "JAVA_8",
   "mixins": ["WarpClimbableMixin"],
-  "injectors": {
-    "defaultRequire": 1
-  }
+  "injectors": { "defaultRequire": 1 }
 }
