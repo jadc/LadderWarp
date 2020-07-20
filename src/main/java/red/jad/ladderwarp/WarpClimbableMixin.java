@@ -19,7 +19,10 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin({LadderBlock.class, VineBlock.class, TwistingVinesPlantBlock.class, WeepingVinesPlantBlock.class, TwistingVinesBlock.class, WeepingVinesBlock.class})
-public class WarpClimbableMixin {
+public class WarpClimbableMixin extends Block {
+    public WarpClimbableMixin(Settings settings) { super(settings); }
+
+    @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         if(!world.isClient()){
             if(player.getMainHandStack().isEmpty() && !player.isSneaking()){
