@@ -3,6 +3,8 @@
   "minVersion": "0.8",
   "package": "red.jad.ladderwarp",
   "compatibilityLevel": "JAVA_8",
-  "mixins": ["WarpClimbableMixin"],
+  "mixins": [
+    "AbstractBlockStateMixin"
+  ],
   "injectors": { "defaultRequire": 1 }
 }
